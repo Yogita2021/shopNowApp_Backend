@@ -11,11 +11,11 @@ const { womensRouter } = require("./Router/women.route");
 const { kidsRouter } = require("./Router/kids.route");
 require("dotenv").config();
 // app.use(cors());
-app.use(
-  cors({
-    origin: ["http://localhost:4200", "http://your-angular-app.com"],
-  })
-);
+// app.use(
+//   cors({
+//     origin: ["http://localhost:4200", "http://your-angular-app.com"],
+//   })
+// );
 app.use(cors());
 app.use(express.json());
 // app.use("/", (req, res) => {
